@@ -7,7 +7,7 @@
 body{
     background-color:black;
     color: white;
-    background-image: url("back4.jpg.jpg");
+    background-image: url("/public/back4.jpg.jpg.jpeg");
     background-size: cover;
 }
 /*header*/
@@ -46,14 +46,13 @@ nav ul li a:hover{
 /* middle section  */
 .middle{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 80px 60px;
+    padding: 0px 60px;
     overflow: hidden;
    /* background: linear-gradient(120deg,#056794,#ffffff);*/
 }
 .middle-text{
     max-width: 50%;
+    padding-top: 9%;
 }
 .middle-text h1{
     font-size: 50px;
@@ -82,6 +81,7 @@ width: 100%;
 height: auto;
 border-radius:10px;
 display: block;
+padding-top: 90px;
 }
 /* features section */
 .features{

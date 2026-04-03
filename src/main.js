@@ -11,14 +11,19 @@ li.position.set(5,5,5).set(5,5,5);
 sc.add(li);
 sc.add(new THREE.AmbientLight(0x404040));
 
+const li2 = new THREE.DirectionalLight(0xfffffff, 1);
+li2.position.set(-5,5,-5).set(-5,5,-5);
+sc.add(li2);
+sc.add(new THREE.AmbientLight(0x404040));
+
 const cont = window.document.querySelector(".lp")
 
 // making a camera 
 const cam = new THREE.PerspectiveCamera(50, cont.clientWidth/cont.clientHeight, 0.1, 400);
 
 // setting the position of the camera 
-cam.position.z = 1;
-
+cam.position.z = 2.1;
+cam.position.y = .9;
 
 // adding the camera to the scene 
 sc.add(cam);
@@ -35,6 +40,8 @@ ren.setPixelRatio(maxpix);
 const orb = new OrbitControls(cam, sp);
 orb.enableDamping = true;
 
+orb.target.set(0,.9,0);
+orb.update();
 
 // window.addEventListener('resize', ()=>{
 //     cam.aspect = cont.clientWidth/cont.clientHeight; // setting the aspect ratio of the camera when the window is resised
