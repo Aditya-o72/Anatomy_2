@@ -9,7 +9,7 @@ code>> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Next step is to run vite inside your code editor.
 
-After vite setup is done Run ( npm install ) on the terminal of the code editor, after cloning the "Anatomy_2" file from my repo <u>(cloning helps with a lot of problems, so it is best to just clone it)</u>
+After vite setup is done Run ( npm install ) on the terminal of the code editor, after cloning the "Anatomy_2" file from my repo <i>(cloning helps with a lot of problems, so it is best to just clone it)</i>
 
 type ( npm run dev ) into the terminal
 
