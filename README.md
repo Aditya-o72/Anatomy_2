@@ -1,11 +1,15 @@
-Install node js with npm in your system.
+<b>Do not download the zip file</b>
 
-Since windows blocks scripts from running by default just copy the code in the terminal given bellow to work with npm
+
+Install node js with npm in your system.
+Download and install git from their website.
+
+Since windows blocks scripts from running by default just copy the code on your terminal given bellow to work with npm
 code>> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Next step is to run vite inside your code editor.
 
-After vite setup is done Run ( npm install ) into the terminal of the code editor after downloading and extracting the "Anatomy_2" file from my repo
+After vite setup is done Run ( npm install ) on the terminal of the code editor, after cloning the "Anatomy_2" file from my repo <u>(cloning helps with a lot of problems, so it is best to just clone it)</u>
 
 type ( npm run dev ) into the terminal
 
