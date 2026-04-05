@@ -7,9 +7,11 @@ Download and install git from their website.
 Since windows blocks scripts from running by default just copy the code on your terminal given bellow to work with npm
 code>> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
+Inside your code editor change the current directry to Anatomy_2
+
 Next step is to run vite inside your code editor.
 
-After vite setup is done Run ( npm install ) on the terminal of the code editor, after cloning the "Anatomy_2" file from my repo <ins><i>(cloning helps with a lot of problems, so it is best to just clone it)</i></ins>
+After vite setup is done, Run ( npm install ) on the terminal of the code editor, after cloning the "Anatomy_2" file from my repo. <ins><i>(cloning helps with a lot of problems, so it is the best way to get this website to working.)</i></ins>
 
 type ( npm run dev ) into the terminal
 

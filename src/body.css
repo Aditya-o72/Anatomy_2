@@ -34,3 +34,12 @@ body{
 .lp{
     width: 50%;
 }
+
+.bb button{
+    height: 30px;
+    width: 100px;
+    border-radius: 20%;
+    border: none;
+    color: #EDEDCE;
+    background-color:#1d4854;
+}
