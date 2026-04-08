@@ -122,3 +122,22 @@ footer{
         margin: auto;
     }
 }
+.box{
+    display: none;
+}
+.contact{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 80px 20px;
+}
+
+.rh img{
+    height: 40px;
+}
+.rh{
+    width: 20%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}

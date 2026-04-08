@@ -3,36 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bio Atlas</title>
     <link rel="stylesheet" href="/src/body.css">
 </head>
 
 <body>
-    <!--right section-->
-    <div class="rp">
-        <h1>Open the relm of deep understanding with interaction !</h1>
-        <h2>click on any part -></h2>
-        <P> ...........</P>
-        <div class="bb">
-            <button id="b1">Muscular</button>
-            <button id="b2">Skeletal</button>
-            <button id="b3">Reproductive</button>
-            <button id="b4">Nervous</button>
-            <button id="b5">Digestive</button>
+
+    <header class="head">
+        <div class="rh">
+            <img src="public/log.png" alt="error img">
+            <div class="logo">Bio <span>Atlas</span></div>
         </div>
-        <div class="bb">
-            <button id="b6">Circulatory</button>
-            <button id="b7">Renal</button>
-            <button id="b8">Respiratory</button>
-            <button id="b9">Endocrine</button>
-            <button id="b10">Integumentary</button>
+        <div class="lh">
+            <a href="index.html">Home</a>
+            <a href="body.html">3D model</a>
         </div>
+    </header>
+
+    <div class="exh">
+        <div class="rp">
+            <h1>Open the relm of deep understanding with interaction !</h1>
+            <h2>click on any part -></h2>
+            <P> ...........</P>
+            <div class="bb">
+                <button id="b1">Muscular</button>
+                <button id="b2">Skeletal</button>
+                <button id="b3">Reproductive</button>
+                <button id="b4">Nervous</button>
+                <button id="b5">Digestive</button>
+            </div>
+            <div class="bb">
+                <button id="b6">Circulatory</button>
+                <button id="b7">Renal</button>
+                <button id="b8">Respiratory</button>
+                <button id="b9">Endocrine</button>
+                <button id="b10">Integumentary</button>
+            </div>
+        </div>
+
+        <div class="lp">
+            <canvas class="space"></canvas>
+        </div>
+        <script type="module" src="/src/main.js"></script>
     </div>
-    <!--left section -->
-    <div class="lp">
-      <canvas class="space"></canvas>
-    </div>
-    <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>
